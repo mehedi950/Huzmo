@@ -1,0 +1,62 @@
+::-webkit-scrollbar {
+  @apply w-1;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-cyan-400 rounded-3xl;
+}
+/* signup and signin page css start */
+
+.register_wrapper {
+  @apply flex flex-col md:flex-row justify-center gap-5 md:gap-10 items-center lg:pt-6;
+}
+
+.register_form_wrapper {
+  @apply w-full sm:w-2/3 md:w-1/2 lg:w-2/5 py-10 px-5;
+}
+
+.register_form {
+  @apply flex flex-col items-center border border-color_secondary pb-10  rounded-lg shadow-lg;
+}
+.register_form h1 {
+  @apply text-xl md:text-2xl lg:text-3xl font-bold bg-color_primary text-color_white py-5 w-full text-center rounded-lg mb-5;
+}
+.register_input_wrapper {
+  @apply flex flex-col w-full;
+}
+.register_input_wrapper input {
+  @apply block mx-3 rounded-lg py-1 lg:py-2 pl-2   outline-none focus:border focus:border-color_secondary focus:shadow-lg border border-transparent;
+}
+
+.register_animation_wrapper {
+  @apply md:w-2/5;
+}
+
+.register_animation_wrapper {
+  @apply flex flex-col items-center justify-center;
+}
+
+.register_ani_heading {
+  @apply font-bold text-xl md:text-2xl lg:text-3xl capitalize text-color_primary pb-7;
+}
+
+.register_ani {
+  @apply w-2/3;
+}
+.button_v_1 {
+  @apply block cursor-pointer bg-color_secondary hover:bg-color_primary text-color_white py-3 rounded-lg mx-3 transition-all duration-150;
+}
+.button_v_2 {
+  @apply block cursor-pointer bg-color_secondary hover:bg-color_primary text-color_white py-1 px-2 text-sm rounded-md mx-2 transition-all duration-150;
+}
+.button_v_3 {
+  @apply block cursor-pointer bg-gray-300 hover:bg-color_primary hover:text-color_white text-color_dark py-1 px-2 text-sm rounded-md mx-2 transition-all duration-150;
+}
+.input_error {
+  @apply text-base text-color_secondary pl-5 py-2;
+}
+
+/* signup and signin page css end */
+
+/* forgot page css start */
+
+/* forgot page css end */
